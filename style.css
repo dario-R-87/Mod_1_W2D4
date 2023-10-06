@@ -49,7 +49,9 @@ body{
  width:60%;
  display: flex;
  flex-direction: column;
+
  padding: 50px 50px 10px 55px;
+ gap:40px;
 }
 
 #content_menu {
@@ -80,12 +82,44 @@ body{
 .item {
  display: flex;
  gap: 20px;
+ align-items: center;
 }
 
 .info {
  display: flex;
  flex-direction: column;
- justify-content: space-evenly;
+ gap: 10px;
+}
+
+.info h2,h5{
+ margin: 0;
+}
+
+.photo {
+ width: 35%;
+}
+
+.author {
+ display: flex;
+ gap: 10px;
+}
+
+.item_details {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.detail_icons {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.detail_data {
+ display: flex;
+ align-items: center;
+ gap: 10px;
 }
 
 #sidebar{
