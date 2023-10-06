@@ -12,8 +12,8 @@ body {
 }
 
 #header img {
-  width: 18%;
-  min-width: 100px;
+  width: 22%;
+  min-width: 140px;
 }
 
 #header_icons {
@@ -150,4 +150,34 @@ h5 {
   display: flex;
   flex-direction: column;
   border-left: 2px solid #f2f2f2;
+}
+
+#twitter {
+  display: flex;
+  flex-direction: column;
+}
+
+#loghi_conc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#loghi_conc img{
+  width: 10%;
+  min-width: 30px;
+}
+
+#loghi_conc #twt{
+  width: 22px;
+  min-width: 22px;
+}
+
+#loghi_conc ion-icon{
+  font-size: 24px;
+  color: #aaa7a7;
+}
+
+#twitter h3 {
+  text-align: center;
 }
