@@ -4,15 +4,17 @@
 
 body {
   margin: 0;
+  background-color: #fafafa;
 }
 
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 80px 10px 100px;
+  padding: 10px 80px 10px 90px;
   border-bottom: 1px solid #f2f2f2;
-  box-shadow: 0px 6px 5px #f2f2f2;
+  box-shadow: 3px 11px 10px 0px #f2f2f2;
+  background-color: white;
 }
 
 #header img {
@@ -26,7 +28,7 @@ body {
   align-items: center;
   gap: 20px;
   color: #aaa7a7;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .gen {
@@ -34,8 +36,9 @@ body {
   border-radius: 20px;
   background-color: white;
   font-weight: 300;
+  font-size: 16px;
   border: 1px solid black;
-  padding: 6px;
+  padding: 10px;
 }
 
 .spec {
@@ -45,11 +48,13 @@ body {
   border: none;
   padding: 6px;
   aspect-ratio: 1/1;
-  width: 30px;
+  width: 40px;
+  font-size: 18px;
 }
 
 #main {
   display: flex;
+  /* background-color: #fafafa; */
 }
 
 #content {
@@ -82,10 +87,11 @@ body {
 
 #content_menu button:focus {
   color: black;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .item {
+  min-width: 480px;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -102,10 +108,6 @@ body {
 .info h2,
 h5 {
   margin: 0;
-}
-
-.photo {
-  width: 30%;
 }
 
 .author {
@@ -208,7 +210,7 @@ h5 {
   width: 70%;
   display: flex;
   align-items: flex-end;
-  gap: 10px;
+  gap: 15px;
   font-size: 18px;
   border: 1px solid #aaa7a7;
   border-radius: 30px;
@@ -283,7 +285,7 @@ h5 {
   color: #aaa7a7;
 }
 
-#sidebar a {
+#sidebar > a {
   color: green;
   text-decoration: none;
   margin-top: 30px;
@@ -296,7 +298,7 @@ h5 {
 }
 
 .saved h2 {
-  margin-block: 10px;
+  margin-block: 10px 5px;
 }
 
 .saved {
