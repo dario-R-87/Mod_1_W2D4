@@ -4,9 +4,10 @@
 
 body {
   margin: 0;
-  background-color: #fafafa;
+  background-color: rgb(252, 252, 252);
 }
 
+/* ---------------------------------- inizio sezione header */
 #header {
   display: flex;
   justify-content: space-between;
@@ -51,6 +52,7 @@ body {
   width: 40px;
   font-size: 18px;
 }
+/* ---------------------------------- fine sezione header */
 
 #main {
   display: flex;
@@ -58,13 +60,11 @@ body {
 
 #content {
   width: 70%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* gap: 40px; */
   padding: 50px 50px 10px 105px;
   border-right: 2px solid #f2f2f2;
 }
 
+/* ---------------------------------- inizio sezione testata content */
 #content_menu {
   border-bottom: 2px solid #f2f2f2;
   display: flex;
@@ -76,7 +76,7 @@ body {
 #content_menu button {
   color: #aaa7a7;
   border: none;
-  background-color: white;
+  background-color: rgb(252, 252, 252);
   padding-bottom: 5px;
   font-size: 16px;
   font-weight: bold;
@@ -90,7 +90,9 @@ body {
   color: black;
   border-bottom: 1px solid black;
 }
+/* ---------------------------------- fine sezione testata content */
 
+/* ---------------------------------- inizio sezione post */
 .item {
   min-width: 480px;
   display: flex;
@@ -101,9 +103,6 @@ body {
 }
 
 .info {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* gap: 5px; */
   width: 70%;
 }
 
@@ -156,14 +155,15 @@ h5 {
   padding: 5px 10px;
   border-radius: 15px;
 }
+/* ---------------------------------- fine sezione post */
 
 #sidebar {
   width: 30%;
-  display: flex;
   flex-direction: column;
   padding: 0 100px 0 60px;
 }
 
+/* ---------------------------------- inizio sezione twitter */
 #twitter {
   display: flex;
   flex-direction: column;
@@ -172,6 +172,11 @@ h5 {
   gap: 20px;
   padding-block: 40px;
   border-bottom: 2px solid #f2f2f2;
+}
+
+.link_sp {
+  display: inline-block;
+  margin-top: 20px;
 }
 
 #twitter a {
@@ -222,11 +227,13 @@ h5 {
   padding: 15px;
   text-align: center;
 }
+/* ---------------------------------- fine sezione twitter */
 
 #sidebar h3 {
   margin-block: 70px 20px;
 }
 
+/* ---------------------------------- inizio sezione topics */
 #rec_topics {
   display: flex;
   gap: 10px;
@@ -241,7 +248,9 @@ h5 {
   font-size: 16px;
   font-weight: 400;
 }
+/* ---------------------------------- fine sezione topics */
 
+/* ---------------------------------- inizio sezione follow */
 .who_follow {
   display: flex;
   align-items: center;
@@ -279,13 +288,9 @@ h5 {
   padding: 10px;
   border: 1px solid black;
 }
+/* ---------------------------------- fine sezione follow */
 
-#menu_bottom_sidebar {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 30px;
-  margin-block: 60px;
-}
+/* ---------------------------------- inizio sezione elementi salvati */
 .detail_data ion-icon {
   font-size: 14px;
   color: #aaa7a7;
@@ -294,7 +299,6 @@ h5 {
 #sidebar > a {
   color: green;
   text-decoration: none;
-  margin-top: 20px;
 }
 
 .saved div {
@@ -309,4 +313,13 @@ h5 {
 
 .saved {
   margin-block: 10px 20px;
+}
+/* ---------------------------------- fine sezione elementi salvati */
+
+/* ---------------------------------- menu finale sidebar */
+#menu_bottom_sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  margin-block: 60px;
 }
