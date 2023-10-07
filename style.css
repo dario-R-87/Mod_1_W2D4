@@ -276,5 +276,29 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
-  margin-top: 50px;
+  margin-block: 50px;
+}
+.detail_data ion-icon {
+  font-size: 14px;
+  color: #aaa7a7;
+}
+
+#sidebar a {
+  color: green;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.saved div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.saved h2 {
+  margin-block: 10px;
+}
+
+.saved {
+  margin-block: 10px;
 }
