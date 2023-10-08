@@ -56,13 +56,15 @@ body {
 
 #main {
   display: flex;
+  justify-content: space-between;
+  gap: 60px;
 }
 
 #content {
   width: 70%;
   padding: 50px 50px 10px 105px;
   border-right: 2px solid #f2f2f2;
-  min-width: 600px;
+  min-width: 450px;
 }
 
 /* ---------------------------------- inizio sezione testata content */
@@ -154,6 +156,7 @@ h5 {
 
 .dot {
   padding-bottom: 5px;
+  font-weight: bold;
 }
 
 .highlighted {
@@ -166,8 +169,8 @@ h5 {
 #sidebar {
   width: 30%;
   flex-direction: column;
-  padding: 0 100px 0 60px;
-  min-width: 320px;
+  padding-right: 100px;
+  min-width: 250px;
 }
 
 /* ---------------------------------- inizio sezione twitter */
@@ -299,8 +302,9 @@ h5 {
 
 /* ---------------------------------- inizio sezione elementi salvati */
 .detail_data ion-icon {
-  font-size: 14px;
+  font-size: 12px;
   color: #aaa7a7;
+  padding-bottom: 2px;
 }
 
 #sidebar > a {
@@ -319,7 +323,7 @@ h5 {
 }
 
 .saved {
-  margin-block: 10px 20px;
+  margin-block: 10px 25px;
 }
 /* ---------------------------------- fine sezione elementi salvati */
 
